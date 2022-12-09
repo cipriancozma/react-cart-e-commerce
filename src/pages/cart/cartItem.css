@@ -1,0 +1,30 @@
+.cartItems {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.cart-item img {
+    width: 300px;
+}
+
+.handler {
+    display: flex;
+    justify-content: center;
+}
+
+.handler button {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+
+.handler button:hover {
+    background-color: black;
+    color: white;
+}
